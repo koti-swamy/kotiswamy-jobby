@@ -1,0 +1,117 @@
+.job-post-card {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  padding: 20px;
+}
+
+.top-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-logo {
+  height: 40px;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.company-name-card {
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.job-title-head {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+.rating-card {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.job-rating {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.rating-icon-style {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.salary-employment-location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location-employment-card {
+  display: flex;
+  flex-direction: row;
+}
+.location-employment-card-style {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.location-employment-icon-style {
+  color: white;
+  margin-right: 2px;
+}
+.location-employment-title-style {
+  margin-top: 0px;
+  color: #7e858e;
+  margin-right: 7px;
+}
+
+.job-package-style {
+  color: white;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.job-horizontal-line-style {
+  width: 100%;
+  color: #7e858e;
+}
+
+.bottom-card {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.job-description-head {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 15px;
+  color: white;
+}
+
+.job-description-style {
+  font-size: 13px;
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.job-post-link-style {
+  text-decoration: none;
+  cursor: pointer;
+}

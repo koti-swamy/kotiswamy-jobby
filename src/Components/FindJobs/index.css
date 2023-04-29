@@ -1,0 +1,137 @@
+.jobs-page-container {
+  background-color: black;
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+.profile-detail-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+
+  padding: 25px;
+  font-family: Roboto;
+  margin-bottom: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.profile-pic-style {
+  height: 50px;
+}
+
+.profile-name {
+  color: #4f46e5;
+  font-size: 17px;
+}
+
+.profile-bio {
+  font-size: 13px;
+}
+
+.filter-container {
+  width: 200%;
+}
+
+.employment-type-head {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.employment-filter-card {
+  padding-left: 0px;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.employment-type-item {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.employment-type-id {
+  cursor: pointer;
+}
+
+.employment-type-input {
+  cursor: pointer;
+}
+
+.profile-failure-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+.retry-btn-style {
+  width: 70px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px;
+  background-color: #4f46e5;
+  align-items: center;
+}
+
+.loader-container {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-container {
+  margin-left: 20px;
+}
+
+.search-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-input-style {
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  border-right: 0px;
+  padding-left: 10px;
+  font-size: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 25px;
+  width: 300px;
+  font-weight: bold;
+  color: #7e858e;
+  outline: none;
+}
+.label-search-style {
+  color: white;
+  background-color: #272727;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  border: 1px solid #7e858e;
+  border-left: 0px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.search-btn-style {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}

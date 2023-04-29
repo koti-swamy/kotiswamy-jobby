@@ -1,0 +1,9 @@
+.jd-list-style {
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 50px;
+}

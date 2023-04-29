@@ -1,0 +1,165 @@
+.job-description-bg-container {
+  background-color: black;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 30px;
+  font-family: Roboto;
+}
+
+.job-description-container {
+  background-color: #2c364c;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.job-description-company-card {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.company-logo-job-description {
+  margin: 0px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.rating-role-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.jd-job-role {
+  margin: 0px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.job-description-rating-card {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.job-description-rating-icon-style {
+  color: #fbbf24;
+  margin: 0px;
+}
+
+.jd-rating-style {
+  color: white;
+  margin: 0px;
+}
+
+.job-description-location-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.job-description-location-employment {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.jd-location-employment-card-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.jd-location-employment-icon-style {
+  color: white;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.jd-location-employment-title-style {
+  margin: 0px;
+  margin-right: 10px;
+  color: #7e858e;
+}
+
+.jd-package-style {
+  color: white;
+}
+
+.jd-horizontal-style {
+  width: 100%;
+  color: #7e858e;
+}
+
+.jd-desc-visit-card {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jd-desc-head-style {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.link-style-jd {
+  color: #4f46e5;
+  text-decoration: none;
+  align-items: center;
+  margin: 0px;
+}
+
+.jd-description {
+  color: white;
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.jd-unordered-list {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.jd-company-description-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.jd-life-company-img {
+  height: 150px;
+  border-radius: 5px;
+}
+
+.jd-similar-job-head {
+  color: white;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.sj-unordered-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}

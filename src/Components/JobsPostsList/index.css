@@ -1,0 +1,17 @@
+.job-post-container {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.no-jobs-found-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-found-head {
+  color: white;
+  font-size: 30px;
+}

@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c364c;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.website-logo {
+  height: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.nav-head-card {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.nav-head {
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: 0px;
+}
+
+.logout-btn-style {
+  color: white;
+  align-items: center;
+  background-color: #6366f1;
+  border-width: 0px;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.header-link {
+  text-decoration: none;
+}
