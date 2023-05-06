@@ -7,6 +7,7 @@
   background-size: cover;
   padding-left: 40px;
   padding-right: 40px;
+  width: 100vw;
 }
 
 .website-logo {
@@ -38,9 +39,11 @@
   padding-top: 5px;
   padding-bottom: 5px;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 12px;
+  border-radius: 6px;
 }
 
 .header-link {
   text-decoration: none;
+  color: white;
 }

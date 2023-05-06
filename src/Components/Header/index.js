@@ -13,28 +13,36 @@ const Header = props => {
 
   return (
     <nav className="header-container">
-      <ul>
-        <li>
+      <div>
+        <Link to="/" className="header-link">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            alt="website logo"
+            className="website-logo"
+          />
+        </Link>
+      </div>
+      <ul type="none" className="nav-head-card">
+        <li className="nav-head">
           <Link to="/" className="header-link">
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-              alt="website logo"
-              className="website-logo"
-            />
+            Home
           </Link>
         </li>
-        <div className="nav-head-card">
-          <li className="nav-head">
-            <Link to="/"> Home </Link>
-          </li>
-          <li className="nav-head">
-            <Link to="/jobs">Jobs</Link>
-          </li>
-        </div>
+        <li className="nav-head">
+          <Link to="/jobs" className="header-link">
+            Jobs
+          </Link>
+        </li>
+        <li>
+          <button
+            type="button"
+            onClick={onLogoutBtn}
+            className="logout-btn-style"
+          >
+            Logout
+          </button>
+        </li>
       </ul>
-      <button type="button" onClick={onLogoutBtn} className="logout-btn-style">
-        Logout
-      </button>
     </nav>
   )
 }

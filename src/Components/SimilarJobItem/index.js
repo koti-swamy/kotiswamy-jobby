@@ -30,8 +30,8 @@ const SimilarJobItem = props => {
       </div>
       <h1 className="sj-desc-head-style">Description</h1>
       <p className="sj-description">{jobDescription}</p>
-      <p>{location}</p>
-      <p>{employmentType}</p>
+      <p style={{color: 'white'}}>Location : {location}</p>
+      <p style={{color: 'white'}}>EmploymentType : {employmentType}</p>
     </li>
   )
 }

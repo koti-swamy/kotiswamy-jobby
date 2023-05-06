@@ -25,7 +25,9 @@ const Home = props => {
             onClick={onFindJobs}
             className="find-jobs-btn-style"
           >
-            <Link to="/jobs">Find Jobs</Link>
+            <Link to="/jobs" className="findjob-link">
+              Find Jobs
+            </Link>
           </button>
         </div>
       </div>

@@ -9,6 +9,7 @@
   flex-direction: row;
   min-height: 100vh;
   max-height: 100%;
+  width: 100vw;
 }
 
 .profile-detail-card {
@@ -36,7 +37,7 @@
 }
 
 .filter-container {
-  width: 200%;
+  width: 100%;
 }
 
 .employment-type-head {
